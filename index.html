@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bharath Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <a href="#home" style="--i:1;" class="active">Home</a>
+                <a href="#skills" style="--i:2;">Skills</a>
+                <a href="#projects" style="--i:3;">Projects</a>
+                <a href="#certification" style="--i:4;">Certification</a>
+                <a href="#extra" style="--i:5;">Extra Activities</a>
+                <a href="#contact" style="--i:6;">Contact</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's me <span style="color: aqua;">Bharath S</span></h3>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>I'm a passionate software developer and IoT enthusiast with expertise in building innovative solutions for real-world problems.</p>
+                <p></p>
+                <div class="social-media">
+                    <a href="https://github.com/bharaths-s" style="--i:7;"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/bharath-s-a61347280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="--i:8;"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/bharath_s_mathelar?igsh=Zzd2ZXU1YWp0bDd6" style="--i:9;"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://mail.google.com/mail/mu/mp/292/#" style="--i:10;"><i class='bx bxl-gmail'></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1SIejqbMeH61X-IkgpS5zc52KYwCsPUq2/view?usp=drive_link" class="btn">Download Resume</a>
+            </div>
+            <div class="home-img">
+                <img src="logo.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="skills" id="skills" style="padding: 40px;">
+            <h3 style="color: #0ef; font-size: 50px; text-align: center; padding: 20px;">Skills</h3>
+            <div class="tech-stack">
+                <img src="Figma-Logo-PNG-File.png" alt="Figma">
+                <img src="c++.png" alt="C++">
+                <img src="c.png" alt="C-Language">
+                <img src="html.png" alt="HTML">
+                <img src="JavaScript.png" alt="JavaScript">
+                <img src="ard.png" alt="Arduino">
+                <img src="Docker.png" alt="Docker">
+                <img src="git.png" alt="Git">
+                <img src="python.png" alt="Python">
+                <img src="sql.png" alt="SQL">
+                <img src="rasp.jpg" alt="Raspberry Pi">
+            </div>
+        </section>
+
+        <section class="projects" id="projects" style="margin-bottom: 80px;">
+            <div>
+                <h3 style="text-align: center; color: #0ef; font-size: 50px; padding-top: 30px;">Projects</h3>
+            </div>
+            <div class="project-container" style="margin-top: 20px; padding: 20px; gap: 40px;">
+                <div class="project-card">
+                    <h2 class="project-title">Smart Tablet for Kids</h2>
+                    <img src="smart tablet for kids.png" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="Smart Tablet for Kids" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">Smart Tablet for Kids using Raspberry Pi, is an interactive educational device designed to make learning fun and engaging for children. It features a colorful touchscreen interface with apps for books, games, and art all powered by a Raspberry Pi 3B+.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/SmartTablet-For-kids" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">NYC Metrocard Redesign</h2>
+                    <img src="metro.jpg" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="NYC Metrocard Redesign" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">This is a sample paragraph about the NYC MetroCard project. It is well-aligned, with proper spacing and readable formatting. You can customize the alignment, font size, and other properties to suit your design needs.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/NYC-metrocard" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">File Cleaning Script</h2>
+                    <img src="file cleanup script.png" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="File Cleaning Script" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">In large systems, managing disk space is key as files pile up. A cleanup script can automatically delete outdated logs, backups, or temporary files, optimizing storage, especially on servers, particularly useful in server environments to optimize storage.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/File-Cleanup-Script" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">Uterine Cancer Detection</h2>
+                    <img src="ut cancer.jpg" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="Uterine Cancer Detection" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">Developed a Machine Learning-based system for early detection of uterine cancer by analyzing user-input symptoms through an interactive web interface. Integrated with Jupyter Notebook for real-time data processing and health suggestions.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/Uterine-cancer-Detection" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">Plant Water Monitoring System</h2>
+                    <img src="plant water m.jpg" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="Plant Water Monitoring System" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">The Plant Water Monitoring System helps maintain plant health by monitoring soil moisture levels and automatically activating a motor to pump water when needed. It ensures efficient water usage and consistent plant care.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/Plant-Water-monitoring-system-" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">Smart Pet Feeding Center</h2>
+                    <img src="smart pet.jpg" style="width: 250px; height: 160px; display: block; margin: 0 auto; padding: 3px; border: 3px solid #0ef;" alt="Smart Pet Feeding Center" class="project-image">
+                    <div class="project-description">
+                        <p style="text-align: justify; line-height: 1.6; margin: 0 0 20px 0; clear: both; color:#fff">A Smart Pet Feeding Centre is an automated and intelligent system designed to feed pets efficiently. It typically integrates IoT, sensors, and cloud connectivity to ensure timely feeding and monitoring of pets’ eating habits.</p>
+                    </div>
+                    <div style="overflow: auto;">
+                        <a href="https://github.com/bharaths-s/SMART-PET-FEEDING-CENTRE-SYSTEM" style="color: black; background-color: #0ef; float: right; padding: 8px 12px; text-decoration: none; border: none; border-radius: 5px;">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certification" id="certification" style="margin-bottom: 60px;">
+            <div class="container">
+                <h2 style="color: #0ef;">My Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <h3>Database Management System</h3>
+                        <p><strong>Issuing Organization:</strong> NPTEL</p>
+                        <p><strong>Date:</strong> April 2024</p>
+                        <p><strong>Description:</strong> Mastered MySQL and Relational Database Management System through an intensive course.</p>
+                        <p><strong>Credential ID:</strong> NPTEL24CS55S652302155</p>
+                        < Nueva href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs55" target="_blank">View Certificate →</a>
+                    </div>
+                    <div class="certification-card">
+                        <h3>Ultimate Home Automation using Advanced AI Assistant</h3>
+                        <p><strong>Issuing Organization:</strong> Udemy</p>
+                        <p><strong>Date:</strong> March 2025</p>
+                        <p><strong>Description:</strong> Hands-on Experience on Internet of Things and Advanced AI Chatbot Using JARVIS</p>
+                        <p><strong>Credential ID:</strong> UC-4b5a4828-1bfc-48fa-a9e0-fd385809a57e</p>
+                        <a href="https://www.udemy.com/certificate/UC-4b5a4828-1bfc-48fa-a9e0-fd385809a57e/" target="_blank">View Certificate →</a>
+                    </div>
+                    <div class="certification-card">
+                        <h3>Introduction to User Interface/User Experience</h3>
+                        <p><strong>Issuing Organization:</strong> Infosys</p>
+                        <p><strong>Date:</strong> September 2024</p>
+                        <p><strong>Description:</strong> Gained Experience in User Interface/User Experience design principles and practices.</p>
+                        <p><strong>Credential ID:</strong></p>
+                        <a href="https://drive.google.com/file/d/1m9Og09bflA6YGTCxApVktj-sP7AmkVcx/view" target="_blank">View Certificate →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="extra" id="extra" style="margin-bottom: 60px;">
+            <div class="container">
+                <h2 style="color: #0ef;">Extra Activities</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <h3>Top 10 Finalist</h3>
+                        <p><strong>Event:</strong> Waves 2025 - by Ministry of Information and Broadcasting</p>
+                        <p><strong>Date:</strong> April 2025</p>
+                        <p><strong>Location:</strong> Jio Centre, Mumbai</p>
+                        <p><strong>Description:</strong> The Innovate2Educate Challenge is empowering young innovators to reimagine handheld learning devices. From 1856 registrations to 10 visionary finalists, India’s next-gen creators are truly shaping the future of education.</p>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326246551557742592/" target="_blank">Explore →</a>
+                    </div>
+                    <div class="certification-card">
+                        <h3>Top 80 Semi-Finalist in Pears & Geek Room</h3>
+                        <p><strong>Event:</strong> Pears Global Hackathon</p>
+                        <p><strong>Date:</strong> March 2025</p>
+                        <p><strong>Location/Mode:</strong> Online</p>
+                        <p><strong>Description:</strong> This journey has been an incredible opportunity to collaborate, learn, and explore Pears technology in depth. Grateful for the support and teamwork that made this possible!</p>
+                        <a href="https://www.linkedin.com/posts/bharath-s-a61347280_hackathon-innovation-peersglobalhackothon-activity-7313629471939432448-anYA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERk3SkBOiik9zPrVYDxs5uelGdvSBdvJhg" target="_blank">Explore →</a>
+                    </div>
+                    <div class="certification-card">
+                        <h3>Participation in Avinya Hackathon</h3>
+                        <p><strong>Event:</strong> Avinya National Level Hackathon</p>
+                        <p><strong>Date:</strong> Nov 2024</p>
+                        <p><strong>Location/Mode:</strong> Chikkaballapur</p>
+                        <p><strong>Description:</strong> The event was held at the Department of ECE, SJC Institute of Technology, Chikkaballapur, in association with IEEE Bengaluru. My project was titled "NYC Metro Card System Redesign" and was guided by Prof. Shruthki G.</p>
+                        <a href="https://www.linkedin.com/posts/bharath-s-a61347280_i-participated-in-avinya-2024-a-national-activity-7270421915796725760-dCm9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERk3SkBOiik9zPrVYDxs5uelGdvSBdvJhg" target="_blank">Explore →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact" style="padding-left: 20px; margin-left: 280px; magin-bottom: 20px;">
+            <div class="contact-card" style="justify-content: center; width: 1800px; max-width: 1000px; padding: 20px; border-radius: 16px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);">
+                <h2>Let's Connect</h2>
+                <form class="contact-form" action="mailto:bharathsbharu2005@gmail.com" method="POST" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <input type="text" name="subject" placeholder="Subject" required />
+                    <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p>Email: bharathsbharu2005@gmail.com</p>
+                    <div class="social-media">
+                        <a href="https://github.com/bharaths-s" style="--i:7;"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/bharath-s-a61347280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="--i:8;"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/bharath_s_mathelar?igsh=Zzd2ZXU1YWp0bDd6" style="--i:9;"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://mail.google.com/mail/mu/mp/292/#" style="--i:10;"><i class='bx bxl-gmail'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer style="text-align: center; padding: 20px; background-color:#1f242d; color: #0ef; position: relative; bottom: 0; width: 100%;">
+            <p>© 2025 Bharath S. All rights reserved.</p>
+        </footer>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
